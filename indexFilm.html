@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02-Javascript-Taak06</title>
+    <link rel="stylesheet" href="css/styleFilm.css">
+</head>
+<body>
+ 
+    
+<table>
+    <thead>
+        <tr>
+            <th>Ranking</th>
+            <th>Naam</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="film1-ranking"></td>
+            <td class="film1-naam"></td>
+            <td><button class="btn1-up" onclick="moveup(1)">🔼</button></td>
+            <td><button class="btn1-down" onclick="movedown(1)">🔽</button></td>
+        </tr>
+        <tr>
+            <td class="film2-ranking"></td>
+            <td class="film2-naam"></td>
+            <td><button class="btn2-up" onclick="moveup(2)">🔼</button></td>
+            <td><button class="btn2-down" onclick="movedown(2)">🔽</button></td>
+        </tr>
+        <tr>
+            <td class="film3-ranking"></td>
+            <td class="film3-naam"></td>
+            <td><button class="btn3-up" onclick="moveup(3)">🔼</button></td>
+            <td><button class="btn3-down" onclick="movedown(3)">🔽</button></td>
+        </tr>
+        <tr>
+            <td class="film4-ranking"></td>
+            <td class="film4-naam"></td>
+            <td><button class="btn4-up" onclick="moveup(4)">🔼</button></td>
+            <td><button class="btn4-down" onclick="movedown(4)">🔽</button></td>
+        </tr>
+        <tr>
+            <td class="film5-ranking"></td>
+            <td class="film5-naam"></td>
+            <td><button class="btn5-up" onclick="moveup(5)">🔼</button></td>
+            <td><button class="btn5-down" onclick="movedown(5)">🔽</button></td>
+        </tr>
+    </tbody>
+</table>
+<button class="btn-reset" onclick="resetList()">Reset volgorde</button>
+
+    <script src="js/scriptFilm.js"></script>
+</body>
+</html>

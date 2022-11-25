@@ -1,0 +1,14 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+th{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+td{
+    background-color: lightskyblue;
+    border-radius: 5px;
+    padding: 10px;
+}

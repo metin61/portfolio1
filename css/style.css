@@ -1,0 +1,105 @@
+* {
+    font-family: sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+h2,p {
+    color: rgb(70, 42, 10);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#puntjes {
+    color: rgb(70, 42, 10);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+#titel {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: tan;
+}
+
+.navbar {
+    background-color: rgb(70, 42, 10);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 20px;
+    top: 0;
+}
+
+.navbar a {
+    padding: 20px;
+    color: rgb(235, 227, 227);
+}
+
+.navbar a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.overmij {
+    margin-top: 90px;
+    margin-right: 100px;
+    margin-left: 20px;
+    display: flex;
+}
+
+
+#afbeelding1 img{
+    width: 300px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 3px solid  rgb(70, 42, 10);
+}
+
+.teksten {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+nav li {
+    float: left;
+
+}
+
+#tekst {
+    margin-bottom: 20px;
+}
+
+li {
+    color: rgb(70, 42, 10);
+}
+
+#tekstnaam {
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.fotos img {
+    width: 500px;
+    height: 300px;
+}
+
+.midden {
+margin-top: 30px;
+    
+}
+
+.projectfoto {
+margin-left: 644px;
+    
+}
+

@@ -1,0 +1,153 @@
+.container{
+    display: flex;
+    padding: 10px;
+}
+
+.dobbelsteen{
+    display: flex;
+    min-width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px 2px black;
+    border: 3px solid black;
+}
+
+.stip{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.links, .rechts, .midden{
+    width: 100%;
+    height: 100%;
+}
+
+/* TIP: Laat bovenstaande code staan */
+
+/* dobbelsteen1 */
+.container{
+    display: flex;
+    padding: 10px;
+}
+
+.dobbelsteen1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.stip{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.links, .rechts, .midden{
+    width: 100%;
+    height: 100%;
+}
+
+/* dobbelsteen2 */
+.dobbelsteen2 .rechts {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+    
+   
+
+
+
+.stip{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.links, .rechts, .midden{
+    width: 100%;
+    height: 100%;
+}
+
+/* dobbelsteen3 */
+.dobbelsteen3 .rechts {
+    display: flex;
+    align-items: flex-end;
+}
+
+    .dobbelsteen3 .midden {
+        display: flex;
+        align-items: center;
+
+}
+
+/* dobbelsteen4 */
+.dobbelsteen4 .rechts {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dobbelsteen4 .midden{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.dobbelsteen4 .links {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+/* dobbelsteen5 */
+.dobbelsteen5 .rechts {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    .dobbelsteen5 .links {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .dobbelsteen5 .midden {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+/* dobbelsteen6 */
+.dobbelsteen6 .rechts {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.dobbelsteen6 .links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+

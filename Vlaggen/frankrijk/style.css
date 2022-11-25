@@ -1,0 +1,33 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 800px;
+    height: 500px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    display: flex;  
+            flex-direction: row-reverse;
+            justify-content: space-evenly;
+}
+
+
+/* Hieronder kun je gaan editen */
+
+#rechts{
+    width: 800px;
+    height: 500px;
+    background-color:red;
+}
+
+#midden{
+    width: 800px;
+    height: 500px;
+    background-color:white;
+}
+#links{
+    width: 800px;
+    height: 500px;
+    background-color:blue;   
